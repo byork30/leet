@@ -20,11 +20,3 @@ class Solution(object):
                     total += value
             i+=1
         return total
-
-test = Solution()
-print(test.romanToInt("XIV"))
-print(test.romanToInt("MCMXCIV"))
-print(test.romanToInt("LVIII"))
-print(test.romanToInt("III"))
-print(test.romanToInt("MMI"))
-print(test.romanToInt("MDCCCLXXXVIII"))
